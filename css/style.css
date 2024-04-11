@@ -54,6 +54,18 @@ img.foto {
     left: 10px;
     top: 10px;
     display: flex;
+    z-index: 1;
+}
+
+#circulo {
+    background:black;
+    border-radius: 50%;
+    height: 210px;
+    width: 210px;
+    left: 5px;
+    top: 5px;
+    position: absolute;
+    z-index: 0;
 }
 
 h2 {
@@ -72,10 +84,27 @@ img.git {
     border-radius: 100%;
     display: flex;
     position: absolute;
-    left: 1525px;
+    left: 92%;
     top: 10px;
 }
 
 @media screen and (max-width: 1024px) {
     
 }
+
+img.insta {
+    width: 8px;
+    min-width: 70px;
+    border-radius: 100%;
+    display: flex;
+    position: absolute;
+    left: 92%;
+    top: 100px;
+}
+
+header {
+    height:50px;
+    background: rgb(73, 10, 82);
+    color: seashell;
+}
+
