@@ -3,33 +3,27 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     overflow: hidden;
-
 }
-
 body {
     width: 100%;
     min-height: 100vh;
 }
-
 section {
     width: 100%;
     height: 100vh;
 }
-
 section div.background-section {
     width: 100%;
     height: 100vh;
     position: absolute;
     z-index: 0;
 }
-
 section div.background-section video {
     width: 100%;
     height: 100vh;
     object-fit: cover;
     object-position: center;
 }
-
 section div.box {
     width: 100%;
     height: 100%;
@@ -41,70 +35,87 @@ section div.box {
     justify-content: center;
     padding: 2%;
 }
-
 section div.box div.conteudo {
     width: 80%;
 }
-
 img.foto {
     width: 60px;
     min-width: 200px;
     border-radius: 100%;
     position: absolute;
     left: 10px;
-    top: 10px;
+    top: 80px;
     display: flex;
     z-index: 1;
 }
-
 #circulo {
     background:black;
     border-radius: 50%;
     height: 210px;
     width: 210px;
     left: 5px;
-    top: 5px;
+    top: 75px;
     position: absolute;
     z-index: 0;
 }
-
 h2 {
     color:white;
     font-size: 14px;
     position: absolute;
-    top: 230px;
+    top: 300px;
     left: 20px;
 }
-
-
-
 img.git {
-    width: 8px;
-    min-width: 70px;
+    width: 50px;
     border-radius: 100%;
     display: flex;
     position: absolute;
     left: 92%;
-    top: 10px;
+    top: 70px;
 }
-
-@media screen and (max-width: 1024px) {
-    
-}
-
 img.insta {
-    width: 8px;
-    min-width: 70px;
+    width: 50px;
     border-radius: 100%;
     display: flex;
     position: absolute;
     left: 92%;
-    top: 100px;
+    top: 140px;
 }
+.head {
+   background-color: black; 
+   height: 61px;
+   z-index: 1;
+   display: flex;
+    position: fixed;
+    padding-left:100%;
+  
 
-header {
-    height:50px;
-    background: rgb(73, 10, 82);
-    color: seashell;
-}
+   
+   }
+  .fatec {
+      width: 100px;
+      position: absolute;
+      display: flex;
+ align-items: center;
+  }
+  .fatectexto {
+      color: white;
+    top: 20%;
+   font-size: 25px;
+  }
 
+
+  .fatectexto1 {
+    color: white;
+    top: 60%;
+   font-size: 12px;
+   left: 1.1%;
+  }
+  
+ p {
+ color: white;
+ top: 60%;
+ font-size: 12px;
+ left: 50.1%;
+ } 
+  
